@@ -1,8 +1,8 @@
 :root {
-  --cor-principal: #ff66b3;
-  --cor-secundaria: #cc0066;
-  --cor-fundo: #ffe6f2;
-  --cor-footer: #502c45;
+  --cor-principal: #2e8b57;
+  --cor-secundaria: #1f6f4a;
+  --cor-fundo: #e6f4ec;
+  --cor-footer: #1b3a2a;
 }
 
 body {
@@ -45,7 +45,7 @@ main {
 
 main img,
 main video {
-  width: 100%;
+  width: 80%;
   border-radius: 10px;
   margin: 20px 0;
 }
@@ -78,7 +78,7 @@ textarea {
 }
 
 button {
-  background: #e24ac9;
+  background: #2e8b57;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -88,7 +88,7 @@ button {
 }
 
 button:hover {
-  background: #bd35ab;
+  background: #2e8b57;
 }
 
 footer {
@@ -106,7 +106,7 @@ footer {
   margin-top: 40px;
 }
 .card {
-  background: #ffe6f9;
+  background: #2e8b57;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
@@ -115,7 +115,7 @@ footer {
 
 .card:hover {
   transform: scale(1.05);
-  background: #ffd3f3;
+  background: #2e8b57;
 }
 
 @media (max-width: 768px) {
@@ -139,7 +139,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffd3f3;
+  color: #1b3a2a;
   text-decoration: underline;
 }
 
@@ -148,6 +148,6 @@ button {
 }
 
 button:hover {
-  background: #bd35ab;
+  background: #59d89d;
   transform: scale(1.03);
 }
