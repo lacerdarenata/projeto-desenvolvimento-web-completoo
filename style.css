@@ -182,7 +182,7 @@ nav ul li a:hover {
 }
 
 .preco {
-  color: #39f186;
+  color: #1f7a5c;
   font-size: 20px;
   font-weight: bold;
 }
@@ -225,4 +225,20 @@ nav ul li a:hover {
   font-size: 18px;     
   margin: 10px 0;
   text-align: center;
+}
+
+.pagina-produto .preco {
+  margin-top: 15px;
+}
+
+.pagina-produto .antigo {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.pagina-produto .novo {
+  color: #1f7a5c;
+  font-size: 22px;
+  font-weight: bold;
 }
